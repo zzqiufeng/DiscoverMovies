@@ -7,12 +7,16 @@ Run "pod install" to involve Alamofire and SwiftyJSON.
 
 MAIN FUNCTIONALITIES:
 
-Manage user's favorite and review of a movie using singleton pattern in memory.
+ 1.     Discover movies.
 
-Asynchronous downloading an image on a tebleViewCell without blocking the main thread. 
+ 2.     Search movies.
 
-A pull to refresh in order to download more movies from themoviedb.org, infinite scroll movie data.
+ 3.     Manage user's favorite and review of a movie using singleton pattern in memory.
 
-Handle if Internet connection exists.
+ 4.     Asynchronous downloading an image on a tebleViewCell without blocking the main thread. 
 
-Autolayout design for bothe iPhone and iPad.
+ 5.     A pull to refresh in order to download more movies data from themoviedb.org, infinite scroll movie data.
+
+ 6.     Handle if Internet connection exists.
+
+ 7.     Autolayout design for bothe iPhone and iPad.
