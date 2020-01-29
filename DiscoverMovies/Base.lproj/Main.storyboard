@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vuk-BA-5QF">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,11 +11,11 @@
             <objects>
                 <viewController id="Ved-0p-GJb" customClass="DiscoverMoviesViewController" customModule="DiscoverMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZRL-7D-KA1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OFf-YM-KPu">
-                                <rect key="frame" x="0.0" y="179" width="375" height="439"/>
+                                <rect key="frame" x="0.0" y="179" width="600" height="372"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B37-7t-m9J">
@@ -29,7 +27,7 @@
                                 <state key="normal" title="Button" image="movieDBlogo100"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Movies Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-fs-Kfn">
-                                <rect key="frame" x="130" y="74" width="225" height="40"/>
+                                <rect key="frame" x="130" y="74" width="450" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="zNu-yK-Meu"/>
                                 </constraints>
@@ -38,7 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnf-Yf-pxD">
-                                <rect key="frame" x="130" y="124" width="97.5" height="30"/>
+                                <rect key="frame" x="130" y="124" width="210" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FHp-Tv-hlB"/>
                                 </constraints>
@@ -47,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Srg-Do-a7W">
-                                <rect key="frame" x="257.5" y="124" width="97.5" height="21.5"/>
+                                <rect key="frame" x="370" y="124" width="210" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -94,15 +92,15 @@
             <objects>
                 <viewController id="JFS-yf-fjb" customClass="SearchMoviesViewController" customModule="DiscoverMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gzE-Gf-7AK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="szL-cd-xW1">
-                                <rect key="frame" x="0.0" y="140" width="375" height="478"/>
+                                <rect key="frame" x="0.0" y="140" width="600" height="411"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="afi-bD-1vn">
-                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
@@ -139,17 +137,17 @@
             <objects>
                 <viewController id="gGR-Vz-zCS" customClass="OneMovieViewController" customModule="DiscoverMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gWx-pb-3py">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZf-Dw-Z7B">
-                                <rect key="frame" x="30" y="74" width="205" height="41"/>
+                                <rect key="frame" x="30" y="74" width="430" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqK-ns-IaI">
-                                <rect key="frame" x="305" y="74" width="40" height="40"/>
+                                <rect key="frame" x="530" y="74" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="4TZ-o7-PmR"/>
                                     <constraint firstAttribute="height" constant="40" id="o9u-0i-UWH"/>
@@ -160,7 +158,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tx6-2Q-6Su">
-                                <rect key="frame" x="250" y="74" width="40" height="40"/>
+                                <rect key="frame" x="475" y="74" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="VzM-Ps-UVq"/>
                                     <constraint firstAttribute="height" constant="40" id="brK-qZ-HVi"/>
@@ -208,7 +206,7 @@
             <objects>
                 <viewController id="NbX-Ta-j1E" customClass="AddReviewViewController" customModule="DiscoverMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gnd-k2-IDb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpV-aU-rBY">
@@ -267,7 +265,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Njn-3X-xxf">
-                                <rect key="frame" x="20" y="147" width="335" height="196"/>
+                                <rect key="frame" x="20" y="147" width="560" height="196"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="196" id="OfS-vY-1RF"/>
                                 </constraints>
@@ -277,10 +275,10 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seeMovie" translatesAutoresizingMaskIntoConstraints="NO" id="27k-XU-g74">
-                                <rect key="frame" x="20" y="353" width="335" height="306"/>
+                                <rect key="frame" x="20" y="353" width="560" height="239"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R7E-uu-Jre">
-                                <rect key="frame" x="20" y="97" width="335" height="40"/>
+                                <rect key="frame" x="20" y="97" width="560" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="uzh-zy-32a"/>
                                 </constraints>
@@ -288,7 +286,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNK-vj-n7K">
-                                <rect key="frame" x="5" y="348" width="365" height="216"/>
+                                <rect key="frame" x="5" y="348" width="590" height="149"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="takePhoto:" destination="NbX-Ta-j1E" eventType="touchUpInside" id="92r-74-UDm"/>
@@ -334,7 +332,7 @@
                         <outlet property="titleLabel" destination="R7E-uu-Jre" id="5uu-r5-udh"/>
                         <outlet property="userImage" destination="27k-XU-g74" id="HAo-S9-cTo"/>
                         <outlet property="userPhoto" destination="mNK-vj-n7K" id="YKa-7r-dhR"/>
-                        <outlet property="userReview" destination="Njn-3X-xxf" id="TA6-Gp-7Ee"/>
+                        <outlet property="userReviewText" destination="Njn-3X-xxf" id="TA6-Gp-7Ee"/>
                         <outletCollection property="rateStars" destination="PpV-aU-rBY" collectionClass="NSMutableArray" id="Uzy-ld-lH0"/>
                         <outletCollection property="rateStars" destination="nf7-w5-Cah" collectionClass="NSMutableArray" id="n8p-1k-K1y"/>
                         <outletCollection property="rateStars" destination="7Qm-MX-Ll9" collectionClass="NSMutableArray" id="5lC-Qh-eoO"/>
@@ -426,7 +424,7 @@
             <objects>
                 <tableViewController id="vkx-Kr-nfz" customClass="FavoriteMoviesTableViewController" customModule="DiscoverMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zOO-19-77Y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <connections>

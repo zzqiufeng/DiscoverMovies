@@ -13,7 +13,7 @@ class AddReviewViewController: UIViewController {
     
     @IBOutlet var rateStars: [UIButton]!
     @IBOutlet weak var titleLabel: UITextField!
-    @IBOutlet weak var userReview: UITextView!
+    @IBOutlet weak var userReviewText: UITextView!
     @IBOutlet weak var userPhoto: UIButton!
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var callCamera: UIBarButtonItem!
@@ -28,10 +28,10 @@ class AddReviewViewController: UIViewController {
         self.navigationItem.title = "Review"
         view.backgroundColor = BACKGROUND_COLOR
         //
-        userReview.delegate = self
-        userReview.text = "Please input your review."
-        userReview.backgroundColor = .white
-        userReview.textColor = .lightGray
+        userReviewText.delegate = self
+        userReviewText.text = "Please input your review."
+        userReviewText.backgroundColor = .white
+        userReviewText.textColor = .lightGray
         //
         oneReview.reviewId = reviewId
         //
@@ -73,9 +73,9 @@ class AddReviewViewController: UIViewController {
                     userImage.image = UIImage(named: "seeMovie.png")
                     print("set user photo to seeMovie")
                 }
-                userReview.text = oneReview.review                
+                userReviewText.text = oneReview.review                
                 titleLabel.text = oneReview.title
-                userReview.textColor = .black
+                userReviewText.textColor = .black
                 userPhoto.setImage(oneReview.photo, for: .normal)
             }
                      
