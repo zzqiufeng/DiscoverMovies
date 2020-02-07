@@ -19,4 +19,4 @@ MAIN FUNCTIONALITIES:
 
  6.     Handle if Internet connection exists.
 
- 7.     Autolayout design for bothe iPhone and iPad.
+ 7.     Autolayout design for both iPhone and iPad.
