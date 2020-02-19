@@ -1,5 +1,5 @@
 # DiscoverMovies
-Discover and search movies on themoviedb.org using APIs supplied by the website.
+Discover and search movies on themoviedb.org by using APIs supplied by the website.
 
 Before using this project, go to themoviedb.org, sign up an account then get an API Key, put it into the project.
  
